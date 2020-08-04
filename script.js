@@ -13,3 +13,30 @@ document.getElementById('pinGeneratorBtn').addEventListener('click',function(){
 // })
 
 
+document.getElementById('submitBtn').addEventListener('click',function(){
+     let randomPinInput = document.getElementById('randomPinInput').value;
+     let  randomPinInputValue = parseInt(randomPinInput);
+     let keyInput = document.getElementById('keyInput').value;
+     let keyInputValue = parseInt(keyInput);
+    
+     if ( randomPinInputValue  ==keyInputValue) {
+          document.getElementById('matched').style.display = 'block';
+          document.getElementById('notMatched').style.display = 'none';
+     }   
+       
+     else{
+           randomPinInputValue  !== keyInputValue  
+              document.getElementById('matched').style.display = 'none';
+              document.getElementById('notMatched').style.display = 'block'; 
+         }
+
+});
+     // else{
+     //       if (randomPinInputValue  !== keyInputValue) { 
+     //           document.getElementById('matched').style.display = 'none';
+     //           document.getElementById('notMatched').style.display = 'block'; }
+     //      }
+           
+          
+     
+    

@@ -108,8 +108,11 @@ color: #E0B612;
 
 
 #keyInput{
-    text-align: right;
+    text-align: center;
 }
 .notify{
     display: none;
+}
+#randomPinInput{
+    text-align: center;
 }
