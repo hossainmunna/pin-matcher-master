@@ -1,5 +1,5 @@
 document.getElementById('pinGeneratorBtn').addEventListener('click',function(){
-     let generateRandomNumber = Math.floor(1000 + Math.random() * 9999); document.getElementById('randomPinInput').value = generateRandomNumber; 
+     let generateRandomNumber = Math.floor(1000 + Math.random() * 9000); document.getElementById('randomPinInput').value = generateRandomNumber; 
 });
 
 
